@@ -1,3 +1,8 @@
+# suzhenskk
+
+Welcome to my GitHub profile repository.
+
+## About
 - 👋 Hi, I’m @suzhenskk
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
@@ -6,7 +11,5 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-<!---
-suzhenskk/suzhenskk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Notes
+This repository contains the profile README displayed on my GitHub profile.
