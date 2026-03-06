@@ -1,12 +1,26 @@
-- 👋 Hi, I’m @suzhenskk
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# English Learning App
 
-<!---
-suzhenskk/suzhenskk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+A React + TypeScript web app for daily English practice.
+
+## Features
+
+- Setup wizard with learner profile (name, level, focus, daily goal)
+- Dashboard with progress metrics and recommended lessons
+- Lesson library with quick-check quizzes
+- Vocabulary flashcards practice flow
+- Local persistence with `localStorage`
+- Personalized tutorial shown after skipping setup wizard twice
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+npm run preview
+```

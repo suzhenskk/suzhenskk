@@ -1,0 +1,404 @@
+.app-shell {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 2rem 1.25rem 2.5rem;
+}
+
+.top-bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #4866f2;
+}
+
+.top-bar h1 {
+  margin: 0.15rem 0 0;
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+}
+
+.subtitle {
+  margin: 0.35rem 0 0;
+  color: #4a5568;
+}
+
+.top-bar-actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1.2rem 0;
+}
+
+.tab {
+  border: 1px solid #d9def5;
+  background: #ffffff;
+  color: #20305f;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tab.active {
+  border-color: transparent;
+  background: linear-gradient(135deg, #5a6ff7, #6e44ff);
+  color: #ffffff;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.stat-card {
+  background: #ffffff;
+  border: 1px solid #e4e8f7;
+  border-radius: 14px;
+  padding: 0.9rem;
+}
+
+.stat-label {
+  margin: 0;
+  color: #596580;
+  font-size: 0.86rem;
+}
+
+.stat-value {
+  margin: 0.35rem 0 0;
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #17264b;
+}
+
+.content-card {
+  margin-top: 1rem;
+  border: 1px solid #e4e8f7;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.1rem;
+}
+
+.content-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+}
+
+.section-hint {
+  margin: 0 0 0.9rem;
+  color: #4a5568;
+}
+
+.dashboard-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.nested-card {
+  border: 1px solid #e4e8f7;
+  border-radius: 12px;
+  padding: 0.9rem;
+  background: #f8faff;
+}
+
+.nested-card h3 {
+  margin: 0;
+}
+
+.nested-title {
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+  color: #17264b;
+}
+
+.lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.lesson-card {
+  border: 1px solid #dfe4fb;
+  border-radius: 12px;
+  padding: 0.9rem;
+  background: #fdfdff;
+}
+
+.lesson-card.completed {
+  border-color: #8ec3aa;
+  background: #f4fff9;
+}
+
+.lesson-card.highlighted {
+  box-shadow: 0 0 0 3px #d7dffb;
+}
+
+.lesson-card h3 {
+  margin: 0.5rem 0 0.25rem;
+}
+
+.lesson-card p {
+  margin-top: 0;
+  color: #4a5568;
+}
+
+.lesson-tags {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.lesson-tags span {
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #33406e;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.55rem;
+}
+
+.quiz-panel {
+  margin-top: 0.95rem;
+  border-top: 1px solid #e6ebfa;
+  padding-top: 0.95rem;
+}
+
+.quiz-panel h3 {
+  margin: 0;
+}
+
+.quiz-question {
+  margin: 0.4rem 0 0.65rem;
+  font-weight: 600;
+}
+
+.quiz-options {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.option-button {
+  text-align: left;
+  border-radius: 10px;
+  border: 1px solid #dde3f8;
+  background: #ffffff;
+  color: #17264b;
+}
+
+.option-button.selected {
+  border-color: #7f8df4;
+}
+
+.option-button.correct {
+  border-color: #4ea881;
+  background: #eaf9f1;
+}
+
+.option-button.wrong {
+  border-color: #e57e7e;
+  background: #fff1f1;
+}
+
+.feedback {
+  margin: 0.7rem 0 0;
+  font-weight: 600;
+}
+
+.feedback.success {
+  color: #2b7d58;
+}
+
+.feedback.warning {
+  color: #af4e4e;
+}
+
+.vocab-card {
+  border: 1px solid #e4e8f7;
+  border-radius: 12px;
+  padding: 1rem;
+  background: linear-gradient(150deg, #f9fbff, #f4f7ff);
+}
+
+.vocab-counter {
+  margin: 0;
+  color: #5f6d8b;
+}
+
+.vocab-card h3 {
+  margin: 0.35rem 0;
+  font-size: 1.5rem;
+}
+
+.hint {
+  margin: 0;
+  color: #4a5568;
+}
+
+.example {
+  margin-top: 0.65rem;
+  font-style: italic;
+  color: #3d4f7c;
+}
+
+.vocab-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.progress-row {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.progress-row.compact {
+  margin: 0.45rem 0 0.7rem;
+}
+
+.progress-track {
+  flex: 1;
+  height: 0.65rem;
+  border-radius: 999px;
+  overflow: hidden;
+  background: #e5e9fb;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4f71f4, #6f4cff);
+}
+
+.progress-fill.secondary {
+  background: linear-gradient(90deg, #2eac98, #3ab77f);
+}
+
+.progress-value {
+  font-size: 0.9rem;
+  color: #41527f;
+}
+
+.primary-button,
+.secondary-button,
+.ghost-button {
+  border-radius: 10px;
+  padding: 0.55rem 0.9rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.primary-button {
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, #5a6ff7, #6f4cff);
+  color: #ffffff;
+}
+
+.secondary-button {
+  border: 1px solid #cad3f5;
+  background: #eef2ff;
+  color: #293a71;
+}
+
+.ghost-button {
+  border: 1px solid #d7def9;
+  background: #ffffff;
+  color: #2d3c70;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.55);
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  z-index: 20;
+}
+
+.modal-card {
+  width: min(100%, 460px);
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid #e1e6fa;
+  padding: 1rem;
+}
+
+.modal-card h2 {
+  margin-top: 0;
+}
+
+.setup-form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.setup-form label {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 600;
+  color: #2f3d67;
+}
+
+.setup-form input,
+.setup-form select {
+  border: 1px solid #d4ddf7;
+  border-radius: 9px;
+  padding: 0.55rem 0.65rem;
+  font: inherit;
+}
+
+.modal-actions {
+  margin-top: 0.35rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.tutorial-layer {
+  z-index: 30;
+}
+
+.tutorial-card ol {
+  margin-top: 0.45rem;
+  padding-left: 1.25rem;
+  color: #32426b;
+}
+
+@media (max-width: 860px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dashboard-grid,
+  .lesson-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .top-bar {
+    flex-direction: column;
+  }
+
+  .top-bar-actions {
+    justify-content: flex-start;
+  }
+}
