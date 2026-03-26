@@ -1,12 +1,22 @@
-- 👋 Hi, I’m @suzhenskk
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# 你好，我是 @suzhenskk 👋
 
-<!---
-suzhenskk/suzhenskk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+欢迎来到我的 GitHub 主页！
+
+## 关于我
+
+- 👀 我感兴趣的方向：编程、效率工具、自动化
+- 🌱 我正在学习：全栈开发与 AI 应用
+- 💞️ 我希望合作：有趣的开源项目
+- 📫 联系方式：欢迎通过 GitHub Issue / PR 交流
+- 😄 代词：TA
+- ⚡ 有趣的事实：我喜欢把重复工作写成脚本
+
+## 今年的小目标
+
+1. 持续输出高质量代码
+2. 参与并维护开源项目
+3. 学习并实践更多工程化方案
+
+---
+
+> Keep building. Keep sharing.
